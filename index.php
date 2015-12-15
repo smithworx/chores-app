@@ -28,7 +28,7 @@
       <div class="form-group">
         <label for="age" class="text-right col-sm-3 control-label">Age:</label>
         <div class="">
-          <select ng-model="user_input.age" ng-options="n for n in [] | range:3:12" id="age" ng-change="go()"></select>
+          <select ng-model="user_input.age" ng-options="n for n in [] | range:2:13" id="age" ng-change="go()"></select>
           <input type="checkbox" ng-model="user_input.age_specific_only" id="age_specific_only" ng-change="go()"> <label for="age_specific_only">age-specific chores only</label>
         </div>
       </div>
