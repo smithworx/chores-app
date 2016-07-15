@@ -17,7 +17,7 @@
     "Bring their things from the car to the house",
     "Say Prayers",
     "Toilet trained",
-    "Learn birthday and age"
+    "Learn birthday and age",
     "Wash walls"
   ],
   "4":[
@@ -41,7 +41,7 @@
     "Vacuum couch/chairs/cushions",
     "Vacuum floors",
     "Make own lunch",
-    "Clear-off table",
+    "Clear off table",
     "Learn outfit matching",
     "Memorize address, phone number, or email",
     "Take out recycling",
@@ -165,6 +165,30 @@
   "13":[
     "Prepare food — from making a grocery list and buying the items (with supervision) to serving a meal",
     "Wash windows",
-    "Do yard work as needed"
+    "Do yard work as needed",
+    "Plan a party for a sibling",
+    "Advanced cooking class",
+    "Maintain budget records",
+    "Type without looking at hands",
+    "Memorize SSN",
+    "Attend movie without parents",
+    "Use ATM",
+    "Pay house bills"
+  ],
+  "14":[
+    "Learn food storage basics",
+    "Change flat tire",
+    "Accompany parent to vote",
+    "Learn basic mechanics",
+    "Clean garage",
+    "Sell items on the internet",
+    "Get and responsibly use a debit card",
+    "Learn and practice firearm handling",
+    "Perform structural house repairs",
+    "Prepare a resume",
+    "Practice job interview",
+    "Plan and build something with parent",
+    "Obtain and pay for mobile phone",
+    "Learn how to use a checking account"
   ]
 }
