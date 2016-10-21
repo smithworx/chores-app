@@ -5,9 +5,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="print.css" media="print" />
 </head>
 
 <body>
@@ -22,6 +23,7 @@
     <div id="main" ng-controller="InputController">
 
       <div class="input-wrapper">
+        <div class="input-controls">
         <h2 style="display: inline-block;">What age and how many?</h2>
         <span class="description"></span>
       <form class="form">
@@ -44,6 +46,7 @@
         aria-controls="seqdia" role="tab" data-toggle="tab">Seqdia</a>
       </div>
     </form>
+  </div>
     <div class="explanation">Generated <b>{{user_input.num_chores}}</b> <span ng-if="user_input.age_specific_only">age-specific</span> chores for a <b>{{user_input.age}}-year old</b>.</div>
     </div>
 
